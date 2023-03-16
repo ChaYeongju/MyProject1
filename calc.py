@@ -6,6 +6,13 @@ def add_func(n1,n2) :
 def sub_func(n1,n2) :
     return n1-n2
 
+def mul_func(n1,n2) :
+    return n1*n2
+
+def dev_func(n1,n2) :
+    return n1/n2
+
+
 
 ## 전역변수부(필드, 속성)
 num1, num2, result = 100, 200, 0
@@ -18,6 +25,11 @@ num1, num2, result = 100, 200, 0
 result = add_func(num1,num2)
 print(num1, '+', num2,'=', result)
 
-
 result = sub_func(num1,num2)
 print(num1, '-', num2,'=', result)
+
+result = mul_func(num1,num2)
+print(num1, '*', num2,'=', result)
+
+result = dev_func(num1,num2)
+print(num1, '/', num2,'=', result)
